@@ -17,8 +17,11 @@
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('WP_CACHE', true); //Added by WP-Cache Manager
-define( 'WPCACHEHOME', '/Users/ohthehugemanatee/Sites/michaelowens/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
+define( 'WPCACHEHOME', '/Users/ohthehugemanatee/Sites/michaelowens/public/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
 define('DB_NAME', 'michaelowens');
+
+define('WP_SITEURL', 'http://localhost/michaelowens/public/');
+define('WP_HOME', 'http://localhost/michaelowens/public/');
 
 /** MySQL database username */
 define('DB_USER', 'org_admin');

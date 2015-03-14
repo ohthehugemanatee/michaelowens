@@ -3,3 +3,5 @@ public/wp-content/languages
 public/wp-content/uploads
 public/wp-config.php
 public/wp-cache-config.php
+public/wp-content/wp-cache-config.php
+public/wp-content/advanced-cache.php

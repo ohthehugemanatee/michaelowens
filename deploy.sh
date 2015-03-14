@@ -26,8 +26,5 @@ if [[ ! -d $PARENT_DIR/common/public/wp-content/uploads ]]; then
 fi
 cd $REPO_ROOT/public/wp-content && ln -fns $PARENT_DIR/common/public/wp-content/uploads
 
-echo 'Simlinking wp-cache-config file'
-ln -fns $PARENT_DIR/common/public/wp-content/wp-cache-config.php $REPO_ROOT/public/wp-content/wp-cache-config.php
-
 echo 'Simlinking public directory'
 ln -fns $REPO_ROOT/public $PARENT_DIR/public

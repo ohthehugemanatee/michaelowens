@@ -20,3 +20,6 @@ if [[ ! -d $PARENT_DIR/common/public/wp-content/uploads ]]; then
   mkdir -p $PARENT_DIR/common/public/wp-content/uploads
 fi
 cd $REPO_ROOT/public/wp-content && ln -fns $PARENT_DIR/common/public/wp-content/uploads
+
+echo 'Simlinking public directory'
+ln -fns $REPO_ROOT/public $PARENT_DIR/public

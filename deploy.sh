@@ -15,6 +15,11 @@ if [[ -f "$REPO_ROOT/public/$ENV.wp-config.php" ]]; then
   fi
 fi
 
+if [[ -f "$REPO_ROOT/public/htaccess.$ENV" ]]; then
+  echo 'Copying .htaccess'
+  cd $REPO_ROOT/public && cp htaccess.$ENV .htaccess > /dev/null
+fi
+
 echo 'Creating and simlinking uploads directory' 
 if [[ ! -d $PARENT_DIR/common/public/wp-content/uploads ]]; then
   mkdir -p $PARENT_DIR/common/public/wp-content/uploads

@@ -20,11 +20,14 @@ define('WP_CACHE', true); //Added by WP-Cache Manager
 define( 'WPCACHEHOME', '/var/www/vhosts/dev.nodesymphony.com/michaelowens/public/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
 define('DB_NAME', 'michaelowens');
 
+define('WP_SITEURL', 'http://michaelowens.dev.nodesymphony.com/');
+define('WP_HOME', 'http://michaelowens.dev.nodesymphony.com/');
+
 /** MySQL database username */
-define('DB_USER', 'org_admin');
+define('DB_USER', 'michaelowens_dev');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'pr0Ab2lu');
+define('DB_PASSWORD', 'fChP9kCkFbY98gv');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');

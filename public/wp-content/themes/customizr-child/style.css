@@ -11,3 +11,6 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  customizr-child
 */
+#content .entry-content a {
+  text-decoration: underline;
+}

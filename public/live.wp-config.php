@@ -13,8 +13,8 @@
  * @package WordPress
  */
 
-define('WP_SITEURL', 'http://michaelowens.com/');
-define('WP_HOME', 'http://michaelowens.com/');
+define('WP_SITEURL', 'http://michaelowens.de/');
+define('WP_HOME', 'http://michaelowens.de/');
 
 /**  MySQL Einstellungen - diese Angaben bekommst du von deinem Webhoster. */
 /**  Ersetze database_name_here mit dem Namen der Datenbank, die du verwenden möchtest. */
